@@ -41,6 +41,7 @@ describe("User Jouney", () => {
                 cy.contains('.card-title', cheapestProductName).click();
             });    
         };
+        
         selectCheapestProduct();
          //add it to cart
         const GoTohomePage = () => {
